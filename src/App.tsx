@@ -4,6 +4,7 @@ import './App.css';
 import Alert from './components/Alerts/Alert';
 import Button from './components/Button/Button'
 import InputField from './components/InputFields/InputField';
+import Textarea from './components/Textarea/Textarea';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
     </div>
       <Alert />
       <Button />
+      <Textarea />
        <InputField/>
     </div>
     </>
