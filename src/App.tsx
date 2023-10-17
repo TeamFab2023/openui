@@ -2,7 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Alert from './components/Alerts/Alert';
-import Button from './components/Button/Button'
+import Button from './components/Button/Button';
+import Cards from './components/Cards/Cards';
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
     </div>
       <Alert />
       <Button />
+      <Cards />
 
     </div>
     </>
