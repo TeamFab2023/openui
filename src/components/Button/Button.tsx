@@ -97,7 +97,7 @@ const Button = () => {
         className='bg bg-gray-100 text-black px-2 w-16 h-10 rounded-md m-0 hover:bg-gray-300'>Light</button>
     <button type="button" className='bg bg-black text-white px-2 w-16 h-10 rounded-md m-1 hover:bg-gray-900'>Dark</button>
 </span>
-
+<br />
 
   </>
   )
