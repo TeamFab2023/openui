@@ -23,9 +23,9 @@ function App() {
     </div>
       <Alert />
       <Button />
-    
-
       <Cards />
+      <Textarea />
+      <InputField />
 
     </div>
     </>
