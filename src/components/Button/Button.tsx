@@ -80,6 +80,25 @@ const Button = () => {
         <BiChevronRight className="h-5 w-5" aria-hidden="true" />
       </button>
     </span>
+    <br />
+    
+    <span className="m-2">
+    <button type="button" className='bg bg-blue-600 text-white px-2 w-20 h-10 rounded-md hover:bg-blue-700'>Primary</button>
+    <button type="button"
+        className='bg bg-gray-600 text-white px-2 w-24 h-10 rounded-md m-1 hover:bg-gray-700'>Secondary</button>
+    <button type="button"
+        className='bg bg-green-800 text-white px-2 w-20 h-10 rounded-md m-0 hover:bg-green-900'>Success</button>
+    <button type="button"
+        className='bg bg-red-600 text-white px-2 w-20 h-10 rounded-md m-1 hover:bg-red-800'>Danger</button>
+    <button type="button"
+        className='bg bg-yellow-600 text-black px-2 w-20 h-10 rounded-md m-0 hover:bg-yellow-500'>Warning</button>
+    <button type="button" className='bg bg-sky-500 text-black px-2 w-14 h-10 rounded-md m-1 hover:bg-sky-400'>Info</button>
+    <button type="button"
+        className='bg bg-gray-100 text-black px-2 w-16 h-10 rounded-md m-0 hover:bg-gray-300'>Light</button>
+    <button type="button" className='bg bg-black text-white px-2 w-16 h-10 rounded-md m-1 hover:bg-gray-900'>Dark</button>
+</span>
+<br />
+
   </>
   )
 }
