@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Alert from './components/Alerts/Alert';
 import Cards from './components/Cards/Cards';
-import Button from './components/Button/Button'
+import Button from './components/Button/Button';
 import InputField from './components/InputFields/InputField';
 import Textarea from './components/Textarea/Textarea';
 
@@ -23,7 +23,7 @@ function App() {
     </div>
       <Alert />
       <Button />
-      <Cards />
+      <Cards/>
       <Textarea />
       <InputField />
 
