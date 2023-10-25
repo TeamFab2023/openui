@@ -6,6 +6,7 @@ import Cards from './components/Cards/Cards';
 import Button from './components/Button/Button';
 import InputField from './components/InputFields/InputField';
 import Textarea from './components/Textarea/Textarea';
+import IconCard from './components/Cards/IconCard';
 
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
     </div>
       <Alert />
       <Button />
-      <Cards/>
+      <Cards />
+      <IconCard />
       <Textarea />
       <InputField />
 
