@@ -2,7 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Alert from './components/Alerts/Alert';
+import Cards from './components/Cards/Cards';
 import Button from './components/Button/Button'
+import InputField from './components/InputFields/InputField';
+import Textarea from './components/Textarea/Textarea';
+import PicCards from './components/Cards/PicCards';
+
 
 function App() {
   return (
@@ -19,7 +24,10 @@ function App() {
     </div>
       <Alert />
       <Button />
-    
+      <Cards />
+      <Textarea />
+      <InputField />
+      <PicCards/>
 
     </div>
     </>
