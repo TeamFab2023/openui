@@ -1,6 +1,6 @@
 .select{
     appearance: none;
-    background-image: url('./arrow-image.png' );
+    background-image: url('../../../public/arrow-image.png' );
     background-position: right top 100%;
     background-repeat: no-repeat;
     background-size: 20px;
