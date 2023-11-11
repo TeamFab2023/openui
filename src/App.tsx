@@ -6,6 +6,9 @@ import Cards from './components/Cards/Cards';
 import Button from './components/Button/Button'
 import InputField from './components/InputFields/InputField';
 import Textarea from './components/Textarea/Textarea';
+import Tables from './components/Tables/spanningTable';
+
+
 
 
 function App() {
@@ -26,6 +29,7 @@ function App() {
       <Cards />
       <Textarea />
       <InputField />
+      <Tables />
 
     </div>
     </>
