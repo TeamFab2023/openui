@@ -5,6 +5,7 @@ import { BiChevronLeft} from "react-icons/bi";
 const Button = () => {
   return (
     <>
+    
         <div className="border-b border-gray-200 pb-5 my-4">
       <h3 className="text-base font-semibold leading-6 text-gray-900 ">Button</h3>
     </div>
@@ -82,6 +83,7 @@ const Button = () => {
     </span>
     <br />
     
+    <br />
     <span className="m-2">
     <button type="button" className='bg bg-blue-600 text-white px-2 w-20 h-10 rounded-md hover:bg-blue-700'>Primary</button>
     <button type="button"
@@ -98,6 +100,7 @@ const Button = () => {
     <button type="button" className='bg bg-black text-white px-2 w-16 h-10 rounded-md m-1 hover:bg-gray-900'>Dark</button>
 </span>
 <br />
+
 
   </>
   )
