@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Alert from './components/Alerts/Alert';
 import Cards from './components/Cards/Cards';
@@ -8,6 +7,8 @@ import InputField from './components/InputFields/InputField';
 import Textarea from './components/Textarea/Textarea';
 import IconCard from './components/Cards/IconCard';
 import PicCards from './components/Cards/PicCards';
+import Tables from './components/Tables/spanningTable';
+
 
 
 
@@ -30,7 +31,8 @@ function App() {
       <IconCard />
       <Textarea />
       <InputField />
-      <PicCards/>
+      <PicCards />
+      <Tables />
 
     </div>
     </>

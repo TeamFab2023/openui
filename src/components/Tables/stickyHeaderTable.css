@@ -1,0 +1,9 @@
+.select{
+    appearance: none;
+    background-image: url('../../../public/arrow-image.png' );
+    background-position: right top 100%;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
