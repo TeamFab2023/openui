@@ -3,10 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 import Alert from './components/Alerts/Alert';
 import Cards from './components/Cards/Cards';
-import Button from './components/Button/Button'
+import Button from './components/Button/Button';
 import InputField from './components/InputFields/InputField';
 import Textarea from './components/Textarea/Textarea';
+import IconCard from './components/Cards/IconCard';
 import PicCards from './components/Cards/PicCards';
+
 
 
 function App() {
@@ -25,6 +27,7 @@ function App() {
       <Alert />
       <Button />
       <Cards />
+      <IconCard />
       <Textarea />
       <InputField />
       <PicCards/>
