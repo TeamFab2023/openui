@@ -7,6 +7,8 @@ import Button from './components/Button/Button';
 import InputField from './components/InputFields/InputField';
 import Textarea from './components/Textarea/Textarea';
 import IconCard from './components/Cards/IconCard';
+import PicCards from './components/Cards/PicCards';
+
 
 
 function App() {
@@ -28,6 +30,7 @@ function App() {
       <IconCard />
       <Textarea />
       <InputField />
+      <PicCards/>
 
     </div>
     </>
