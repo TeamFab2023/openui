@@ -8,6 +8,7 @@ import Textarea from './components/Textarea/Textarea';
 import IconCard from './components/Cards/IconCard';
 import PicCards from './components/Cards/PicCards';
 import Tables from './components/Tables/spanningTable';
+import Sidebar from './components/Sidebar/Sidebar';
 
 
 
@@ -33,6 +34,7 @@ function App() {
       <InputField />
       <PicCards />
       <Tables />
+      <Sidebar/>
 
     </div>
     </>
