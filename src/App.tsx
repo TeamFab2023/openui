@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import  HomePage from './components/HomePage/HomePage';
+import  HomePage from './components/HomePage/HomePages';
 {/*import PicCards from './components/Cards/PicCards';*/}
 {/*import Tables from './components/Tables/DenseTable';*/}
 {/*import Alert from './components/Alerts/Alert';*/}
