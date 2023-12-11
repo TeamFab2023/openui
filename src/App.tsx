@@ -10,6 +10,7 @@ import Tables from './components/Tables/spanningTable';
 import Sidebar from './components/Sidebar/Sidebar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import PicCards from './components/Cards/PicCards';
+import HomePage from './components/HomePage/HomePage';
 
 
 
@@ -19,7 +20,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-        {/* <Route path="/" element={<HomeLayout />}></Route> */}
+          <Route path="/" element={<HomePage />}></Route>
           <Route path="/alerts" element={<Alert />}></Route>
           <Route path="/cards" element={<Cards />}></Route>
         </Routes>
