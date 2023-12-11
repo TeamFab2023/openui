@@ -30,6 +30,7 @@ const HomePage = () => {
         </div>
         <br/>
         <br/> 
+        <br/>
         {/*<Cards/>*/}
         <Table/>
         
