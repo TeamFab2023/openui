@@ -1,8 +1,9 @@
 import React from 'react'
+import { Layout } from '../Layouts/Layout'
 
 const InputField = () => {
   return (
-   <>
+  <Layout>
    
         <section>
         <div className="border-b border-gray-200 pb-5 my-4">
@@ -186,7 +187,7 @@ const InputField = () => {
         />
       </div>
     </section>
-   </>
+    </Layout>
   )
 }
 

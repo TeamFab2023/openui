@@ -1,7 +1,8 @@
 import React from 'react'
+import { Layout } from '../Layouts/Layout'
 const Cards = () => {
     return (
-        <>
+        <Layout>
             <div className="border-b border-gray-200 pb-5 my-4 mt-[30px]">
                 <h3 className="text-[30px] font-semibold leading-6 text-gray-900 ">Cards</h3>
             </div>
@@ -97,7 +98,7 @@ const Cards = () => {
                 </div>
             </div>
              
-        </>
+    </Layout>
 
 
 

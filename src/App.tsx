@@ -1,3 +1,4 @@
+
 import React from 'react';
 import './App.css';
 import Alert from './components/Alerts/Alert';
@@ -10,18 +11,31 @@ import Tables from './components/Tables/spanningTable';
 import Sidebar from './components/Sidebar/Sidebar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import PicCards from './components/Cards/PicCards';
-
-
-
+import BasicTable from './components/Tables/BasicTable'; 
+import DenseTable from './components/Tables/DenseTable';
+import { Layout } from './components/Layouts/Layout';
 
 function App() {
   return (
     <>
+     
       <BrowserRouter>
         <Routes>
-        {/* <Route path="/" element={<HomeLayout />}></Route> */}
-          <Route path="/alerts" element={<Alert />}></Route>
-          <Route path="/cards" element={<Cards />}></Route>
+          <Route path="/" element={<Layout />}>
+            <Route path="sidebar" element={<Sidebar />} />
+            <Route path="alerts" element={<Alert />} />
+            <Route path="button" element={<Button />} />
+            <Route path="cards" element={<Cards />}>
+              <Route path="IconCard" element={<IconCard />} />
+              <Route path="PicCards" element={<PicCards />} />
+            </Route>
+            <Route path="inputfields" element={<InputField />} />
+            <Route path="tables" element={<Tables />}>
+              <Route path="BasicTable" element={<BasicTable />} />
+              <Route path="DenseTable" element={<DenseTable />} />
+            </Route>
+            <Route path="Textarea" element={<Textarea />} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </>

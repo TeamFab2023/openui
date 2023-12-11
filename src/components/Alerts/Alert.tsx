@@ -6,7 +6,7 @@ import { Layout } from '../Layouts/Layout';
 const Alert = () => {
   return (
     <Layout>
-      <>
+   
 
         <div className="border-b border-gray-200 pb-5 my-4">
           <h3 className="text-base font-semibold leading-6 text-gray-900 ">Alert</h3>
@@ -49,7 +49,7 @@ const Alert = () => {
             <p className="ps-5">A simple primary alert—check it out!</p>
           </div>
         </div>
-      </>
+    
 
     </Layout>
 

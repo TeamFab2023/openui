@@ -1,8 +1,9 @@
 import React from 'react';
+import { Layout } from '../Layouts/Layout';
 
 const Table = () => {
   return (
-    <>
+  <Layout>
       <span className='font-bold text-xl'>Basic Table</span>  <br /> <br />
       <div className="min-w-full bg-white shadow-md rounded-lg overflow-x-scroll">
         <table className="min-w-full leading-normal">
@@ -114,7 +115,7 @@ const Table = () => {
           </tbody>
         </table>
       </div>
-    </>
+      </Layout>
 
   )
 }
