@@ -26,14 +26,14 @@ function App() {
         </h2>
       </div>
     </div>
-      <Alert />
+      {/* <Alert />
       <Button />
       <Cards />
       <IconCard />
       <Textarea />
       <InputField />
       <PicCards />
-      <Tables />
+      <Tables /> */}
       <Sidebar/>
 
     </div>
