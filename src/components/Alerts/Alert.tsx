@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiFillExclamationCircle } from "react-icons/ai";
 import { MdCancel } from "react-icons/md";
-import { Layout } from '../Layouts/Layout';
+import Layout from '../Layouts/Layout';
 
 const Alert = () => {
   return (

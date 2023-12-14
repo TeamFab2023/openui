@@ -2,7 +2,7 @@ import React from 'react'
 import { BiChevronLeft } from "react-icons/bi";
 import { BiChevronRight } from "react-icons/bi";
 import './stickyHeaderTable.css';
-import { Layout } from '../Layouts/Layout';
+import Layout from '../Layouts/Layout';
 
 
 export default function BasicTable() {

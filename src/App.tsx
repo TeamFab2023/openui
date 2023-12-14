@@ -13,7 +13,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import PicCards from './components/Cards/PicCards';
 import BasicTable from './components/Tables/BasicTable';
 import DenseTable from './components/Tables/DenseTable';
-import { Layout } from './components/Layouts/Layout';
+import HomePage from './components/HomePage/HomePage';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route path="/" element={<HomePage />}>
 
             <Route path="sidebar" element={<Sidebar />} />
             <Route path="alerts" element={<Alert />} />

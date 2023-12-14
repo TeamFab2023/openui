@@ -1,12 +1,13 @@
 import React from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 import Table from '../Tables/DenseTable';
+import Layout from '../Layouts/Layout';
 {/*import Cards from '../Cards/PicCards';*/}
 
 
 const HomePage = () => {
   return (
-    <>
+    <Layout>
     <div style={{ display: 'grid', gridTemplateColumns: '10px 1fr', gap: '100px' }}>
       
       {/* SideBar */}
@@ -39,7 +40,7 @@ const HomePage = () => {
       </div>
       
     </div>
-    </>
+    </Layout>
   );
 };
 
