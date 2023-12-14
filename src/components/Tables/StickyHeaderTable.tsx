@@ -2,11 +2,13 @@ import React from 'react'
 import { BiChevronLeft } from "react-icons/bi";
 import { BiChevronRight } from "react-icons/bi";
 import './stickyHeaderTable.css';
+import Layout from '../Layouts/Layout';
 
 
 export default function BasicTable() {
   return (
-    <div className="overflow-hidden ">
+   <Layout>
+   <div className="overflow-hidden ">
       <div className="grid grid-col-1 ">
         <div className=" overflow-y-scroll  max-h-[420px] md:h-screen z-50  ">
           <table className="border-separate border-spacing-0 w-full  border-gray-300   ">
@@ -162,5 +164,6 @@ export default function BasicTable() {
         </div>
       </div>
     </div >
+    </Layout>
   )
 }

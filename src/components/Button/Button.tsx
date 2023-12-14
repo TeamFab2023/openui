@@ -1,7 +1,7 @@
 import React from 'react'
 import { BiChevronRight } from "react-icons/bi";
 import { BiChevronLeft } from "react-icons/bi";
-import { Layout } from '../Layouts/Layout';
+import Layout from '../Layouts/Layout';
 
 const Button = () => {
   return (

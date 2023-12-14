@@ -1,8 +1,9 @@
 import React from 'react'
+import Layout from '../Layouts/Layout'
 
 const IconCard = () => {
   return (
-    <>
+<Layout>
     {/*Statistic Cards Work Start */}
 
     <br />
@@ -132,7 +133,7 @@ const IconCard = () => {
     <div className="border-b border-[1px] border-gray-300 mt-[20px]"></div>
     <br />
     {/*Statistic Cards Work End */}
-</>
+    </Layout>
   )
 }
 

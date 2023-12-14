@@ -3,13 +3,12 @@ import { Link } from "react-router-dom";
 
 const Sidebar = () => {
     return (
-        <>
             <body className="bg-slate-100 " >
                 <aside id="sidebar-multi-level-sidebar"
                     className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0">
 
                     <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 ">
-                        <a href="#" className="flex items-center ps-2.5 mb-5">
+                        <Link to="/" className="flex items-center ps-2.5 mb-5">
                             <svg width="40" fill="none" height="24" viewBox="0 0 268 150" xmlns="http://www.w3.org/2000/svg" className="-ml-2 mr-2">
                                 <rect rx="25.1443" width="50.2886" height="143.953" fill="#666CFF" transform="matrix(-0.865206 0.501417 0.498585 0.866841 195.571 0)">
 
@@ -34,17 +33,17 @@ const Sidebar = () => {
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
                                     d="M7 1 1.3 6.326a.91.91 0 0 0 0 1.348L7 13" />
                             </svg>
-                        </a>
+                        </Link>
                         {/*<!-- ***********************Dashboard******************** -->*/}
 
                         <section>
-                            <a href="#" className="flex items-center p-2 text-gray-900 rounded-lg space-y-2 font-medium ">
+                            <Link to="/" className="flex items-center p-2 text-gray-900 rounded-lg space-y-2 font-medium ">
                                 <svg className="w-[17px] h-[17px] mt-1 text-gray-800 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                     fill="none" viewBox="0 0 20 20">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"
                                         d="M3 8v10a1 1 0 0 0 1 1h4v-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5h4a1 1 0 0 0 1-1V8M1 10l9-9 9 9" />
                                 </svg>
-                                <span className="ms-3">Dashboar....</span>
+                                <span className="ms-3">Dashboard</span>
                                 <span
                                     className="bg-orange-600 text-white text-xs font-medium me-2 px-2.5 ml-1 py-0.5 rounded-full">New</span>
                                 <svg className="w-[15px] h-[13px] pl-2 text-gray-800 " aria-hidden="true"
@@ -52,7 +51,7 @@ const Sidebar = () => {
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"
                                         d="m1 9 4-4-4-4" />
                                 </svg>
-                            </a>
+                            </Link>
                         </section>
 
                         <br />
@@ -69,7 +68,7 @@ const Sidebar = () => {
                         {/* <!-- *************************  BUTTON-Li   ************************* -->*/}
 
                         <section>
-                            <a href="#"
+                            <Link to="/button"
                                 className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-10 group space-y-2 font-medium">
                                 <svg className="w-[16px] h-[16px] mt-2" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                     xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" enable-background="new 0 0 64 64"
@@ -86,7 +85,7 @@ const Sidebar = () => {
                                     </g>
                                 </svg>
                                 <span className="flex-1 ms-3 whitespace-nowrap text-gray-500">Buttons</span>
-                            </a>
+                            </Link>
                         </section>
 
 
@@ -142,7 +141,7 @@ const Sidebar = () => {
 
                             {/* <!--*******************TEXT-AREA-LI ********************* -->*/}
                             <li>
-                                <a href="#" className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-10 group">
+                                <Link to="#" className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-10 group">
                                     <svg  viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
                                         fill="#000000" className="bi bi-textarea-resize w-[15px] h-[15px]">
                                         <g id="SVGRepo_bgCarrier" stroke-width="0">
@@ -155,12 +154,12 @@ const Sidebar = () => {
                                         </g>
                                     </svg>
                                     <span className="flex-1 ms-3 whitespace-nowrap text-gray-500">Textarea</span>
-                                </a>
+                                </Link>
                             </li>
 
                             {/*<!--*******************INPUT-FIELDS-LI ********************* -->*/}
                             <li>
-                                <a href="#" className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-10 group">
+                                <Link to="#" className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-10 group">
 
                                     <svg className="w-[16px] h-[16px]" viewBox="0 0 16 16" version="1.1"
                                         xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -175,7 +174,7 @@ const Sidebar = () => {
                                         </g>
                                     </svg>
                                     <span className="flex-1 ms-3 whitespace-nowrap text-gray-500">InputFields</span>
-                                </a>
+                                </Link>
                             </li>
 
                             {/*<!--*******************  TABLES-LI ********************* -->*/}
@@ -232,7 +231,6 @@ const Sidebar = () => {
                     </div>
                 </aside>
             </body>
-        </>
     );
 }
 
