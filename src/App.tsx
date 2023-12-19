@@ -25,8 +25,8 @@ function App() {
             <Route path="button" element={<Button />} />
 
              <Route path="cards" element={<Cards />}>
-              <Route path="IconCard" element={<IconCard />} />
-              <Route path="PicCards" element={<PicCards />} />
+              <Route path="iconcard" element={<IconCard />} />
+              <Route path="piccards" element={<PicCards />} />
             </Route>
 
             <Route path="inputfields" element={<InputField />} />

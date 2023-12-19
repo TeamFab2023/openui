@@ -121,17 +121,25 @@ const Sidebar = () => {
                                 </button>
                                 <ul id="dropdown-example" className=" py-2 space-y-2 ">
                                     <li className="flex items-center w-full p-2 rounded-lg pl-11  hover:bg-gray-100 text-gray-500">
-                                        Simple
-                                        Cards
+                                       <Link to="/cards">
+                                       Simple
+                                        Cards 
+                                       </Link>
+                                       
                                     </li>
                                     <li className="flex items-center w-full p-2 rounded-lg pl-11 group hover:bg-gray-100 text-gray-500">
-                                        Pic
-                                        Cards
+                                    <Link to="/cards/iconcard">
+                                      Icon
+                                        Cards 
+                                       </Link>
                                     </li>
                                     <li className="flex items-center w-full p-2 rounded-lg pl-11 group hover:bg-gray-100 text-gray-500">
-                                        Static
-                                        Cards
+                                    <Link to="/cards/piccards">
+                                       Pic
+                                        Cards 
+                                       </Link>
                                     </li>
+                                   
                                 </ul>
                             </li>
 
@@ -141,7 +149,7 @@ const Sidebar = () => {
 
                             {/* <!--*******************TEXT-AREA-LI ********************* -->*/}
                             <li>
-                                <Link to="#" className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-10 group">
+                                <Link to="/textarea" className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-10 group">
                                     <svg  viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
                                         fill="#000000" className="bi bi-textarea-resize w-[15px] h-[15px]">
                                         <g id="SVGRepo_bgCarrier" stroke-width="0">
@@ -159,7 +167,7 @@ const Sidebar = () => {
 
                             {/*<!--*******************INPUT-FIELDS-LI ********************* -->*/}
                             <li>
-                                <Link to="#" className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-10 group">
+                                <Link to="/inputfields" className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-10 group">
 
                                     <svg className="w-[16px] h-[16px]" viewBox="0 0 16 16" version="1.1"
                                         xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -209,21 +217,24 @@ const Sidebar = () => {
                                 </button>
                                 <ul id="dropdown-example" className=" py-2 space-y-2">
                                     <li className="flex items-center w-full p-2 rounded-lg pl-11  hover:bg-gray-100 text-gray-500">
-                                        Basic
-                                        Table
+                                    <Link to="/tables">
+                                      Basic Table 
+                                       </Link>
                                     </li>
                                     <li className="flex items-center w-full p-2 rounded-lg pl-11  hover:bg-gray-100 text-gray-500">
-
-                                        Dense
-                                        Table
+                                    <Link to="/tables/basictable">
+                                     Dense Table
+                                       </Link>
                                     </li>
                                     <li className="flex items-center w-full p-2 rounded-lg pl-11  hover:bg-gray-100 text-gray-500">
-                                        Spanning
-                                        Table
+                                    <Link to="/tables/spanningtable">
+                                     Spanning Table
+                                       </Link>
                                     </li>
                                     <li className="flex items-center w-full p-2 rounded-lg pl-11  hover:bg-gray-100 text-gray-500">
-                                        Sticky
-                                        Header Table
+                                    <Link to="/tables/StickyHeaderTable">
+                                     Sticky Header Table
+                                       </Link>
                                     </li>
                                 </ul>
                             </li>
