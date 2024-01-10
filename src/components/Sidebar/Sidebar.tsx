@@ -217,22 +217,22 @@ const Sidebar = () => {
                                 </button>
                                 <ul id="dropdown-example" className=" py-2 space-y-2">
                                     <li className="flex items-center w-full p-2 rounded-lg pl-11  hover:bg-gray-100 text-gray-500">
-                                    <Link to="/tables">
+                                    <Link to="/Tables/BasicTable">
                                       Basic Table 
                                        </Link>
                                     </li>
                                     <li className="flex items-center w-full p-2 rounded-lg pl-11  hover:bg-gray-100 text-gray-500">
-                                    <Link to="/tables/basictable">
+                                    <Link to="/Tables/DenseTable">
                                      Dense Table
                                        </Link>
                                     </li>
                                     <li className="flex items-center w-full p-2 rounded-lg pl-11  hover:bg-gray-100 text-gray-500">
-                                    <Link to="/tables/spanningtable">
+                                    <Link to="/Tables/SpanningTable">
                                      Spanning Table
                                        </Link>
                                     </li>
                                     <li className="flex items-center w-full p-2 rounded-lg pl-11  hover:bg-gray-100 text-gray-500">
-                                    <Link to="/tables/StickyHeaderTable">
+                                    <Link to="/Tables/StickyHeaderTable">
                                      Sticky Header Table
                                        </Link>
                                     </li>

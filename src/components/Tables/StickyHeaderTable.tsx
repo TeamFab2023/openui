@@ -5,9 +5,10 @@ import './stickyHeaderTable.css';
 import Layout from '../Layouts/Layout';
 
 
-export default function BasicTable() {
+const  StickyHeaderTable = () => {
   return (
    <Layout>
+    <span className='font-bold text-xl'>Sticky Header Table</span>  <br /> <br />
    <div className="overflow-hidden ">
       <div className="grid grid-col-1 ">
         <div className=" overflow-y-scroll  max-h-[420px] md:h-screen z-50  ">
@@ -167,3 +168,4 @@ export default function BasicTable() {
     </Layout>
   )
 }
+export default StickyHeaderTable;

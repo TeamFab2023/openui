@@ -119,4 +119,4 @@ const DenseTable = () => {
   )
 }
 
-export default DenseTable
+export default DenseTable;

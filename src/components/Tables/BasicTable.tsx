@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../Layouts/Layout';
 
-const Table = () => {
+const BasicTable = () => {
   return (
   <Layout>
       <span className='font-bold text-xl'>Basic Table</span>  <br /> <br />
@@ -120,4 +120,4 @@ const Table = () => {
   )
 }
 
-export default Table;
+export default BasicTable;

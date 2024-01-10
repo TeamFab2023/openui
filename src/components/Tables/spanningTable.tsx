@@ -2,9 +2,10 @@ import React from 'react'
 import Layout from '../Layouts/Layout'
 
 
-export default function BasicTable() {
+export default function SpanningTable() {
   return (
  <Layout>
+  <span className='font-bold text-xl'>Spanning Table</span>  <br /> <br />
       <div className="grid grid-col-1 ">
         <div className="max-h-[700px] overflow-x-scroll  md:overflow-hidden ">
           <table className=" w-full    ">
