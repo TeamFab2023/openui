@@ -13,6 +13,7 @@ import PicCards from './components/Cards/PicCards';
 import BasicTable from './components/Tables/BasicTable';
 import DenseTable from './components/Tables/DenseTable';
 import HomePage from './components/HomePage/HomePage';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -35,10 +36,11 @@ function App() {
               <Route path="BasicTable" element={<BasicTable />} />
               <Route path="DenseTable" element={<DenseTable />} />
             </Route>
-
             <Route path="Textarea" element={<Textarea />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
+      
   );
 }
 
