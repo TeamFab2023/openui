@@ -16,7 +16,9 @@ const HomePage = () => {
   return (
     <>
     
-    <div style={{ display: 'grid', gridTemplateColumns: '0px 1fr', gap: '' }}>
+    <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '', width:'@media (max-width: 640px)'
+  
+  }}>
       
       {/* SideBar */}
       <div>
@@ -40,18 +42,16 @@ const HomePage = () => {
        
         <br/>
         <IconCard/>
-        <DenseTable/>
+        {/*<DenseTable/> */}
         <br/>
         <br/>
-       
-      
-        
+     
         <PicCards/>
       
-        
-        
       </div>
-      
+
+    </div>
+    <div>
     </div>
     </>
   );

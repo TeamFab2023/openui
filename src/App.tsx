@@ -15,6 +15,8 @@ import DenseTable from './components/Tables/DenseTable';
 import HomePage from './components/HomePage/HomePage';
 import StickyHeaderTable from './components/Tables/StickyHeaderTable'
 import SpanningTable from './components/Tables/SpanningTable'
+import Footer from './components/Footer/Footer';
+
 
 function App() {
   return (
@@ -33,17 +35,17 @@ function App() {
 
         <Route path="inputfields" element={<InputField />} />
 
-        {/* <Route path="tables" element={<Tables />}> */}
-          <Route path="/Tables/BasicTable" element={<BasicTable />} />
-          <Route path="/Tables/DenseTable" element={<DenseTable />} />
-          <Route path="/Tables/StickyHeaderTable" element={<StickyHeaderTable />} />
-          <Route path="/Tables/SpanningTable" element={<SpanningTable />} />
-        {/* </Route> */}
-
-
-        <Route path="Textarea" element={<Textarea />} />
-      </Routes>
-    </BrowserRouter>
+            <Route path="tables" element={<Tables />}>
+              <Route path="BasicTable" element={<BasicTable />} />
+              <Route path="DenseTable" element={<DenseTable />} />
+              <Route path="/Tables/StickyHeaderTable" element={<StickyHeaderTable />} />
+              <Route path="/Tables/SpanningTable" element={<SpanningTable />} />
+            </Route>
+            <Route path="Textarea" element={<Textarea />} />
+        </Routes>
+        <Footer/>
+      </BrowserRouter>
+      
   );
 }
 
