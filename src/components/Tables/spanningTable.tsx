@@ -5,7 +5,7 @@ import Layout from '../Layouts/Layout'
 export default function SpanningTable() {
   return (
  <Layout>
-  <span className='font-bold text-xl'>Spanning Table</span>  <br /> <br />
+  <h3 className='text-2xl font-bold leading-6 text-gray-900 mt-2 '>Spanning Table</h3>  <br />
       <div className="grid grid-col-1 ">
         <div className="max-h-[700px] overflow-x-scroll  md:overflow-hidden ">
           <table className=" w-full    ">

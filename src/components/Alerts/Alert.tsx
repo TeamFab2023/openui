@@ -8,7 +8,7 @@ const Alert = () => {
     <Layout>
       <>
         <div className="border-b border-gray-200 pb-5 my-4">
-          <h3 className="text-base font-semibold leading-6 text-gray-900 ">Alert</h3>
+          <h3 className="text-2xl font-bold leading-6 text-gray-900  ">Alert</h3>
         </div>
         <div className="rounded-md bg-yellow-50 p-4 w-25">
           <div className="flex">

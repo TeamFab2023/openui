@@ -4,7 +4,7 @@ import Layout from '../Layouts/Layout'
 const DenseTable = () => {
   return (
    <Layout>
-    <span className='font-bold text-xl'>Dense Table</span><br /><br /><div className="min-w-full bg-white shadow-md rounded-lg overflow-x-scroll">
+    <h3 className='text-2xl font-bold leading-6 text-gray-900 mt-2 '>Dense Table</h3><br /><div className="min-w-full bg-white shadow-md rounded-lg overflow-x-scroll">
           <table className="min-w-full leading-normal">
               <thead>
                   <tr>

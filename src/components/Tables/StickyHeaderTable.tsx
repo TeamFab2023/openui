@@ -8,7 +8,7 @@ import Layout from '../Layouts/Layout';
 const  StickyHeaderTable = () => {
   return (
    <Layout>
-    <span className='font-bold text-xl'>Sticky Header Table</span>  <br /> <br />
+    <h3 className='text-2xl font-bold leading-6 text-gray-900 mt-2 '>Sticky Header Table</h3> <br />
    <div className="overflow-hidden ">
       <div className="grid grid-col-1 ">
         <div className=" overflow-y-scroll  max-h-[420px] md:h-screen z-50  ">
