@@ -7,7 +7,7 @@ const InputField = () => {
    
         <section>
         <div className="border-b border-gray-200 pb-5 my-4">
-      <h3 className="text-base font-semibold leading-6 text-gray-900 ">Input Fields</h3>
+      <h3 className="text-2xl font-bold leading-6 text-gray-900 ">Input Fields</h3>
     </div>
     <br />
       {/******************Input Box With Icon********************** */}

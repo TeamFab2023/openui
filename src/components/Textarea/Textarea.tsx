@@ -7,7 +7,7 @@ const Textarea = () => {
     <Layout>
     <section>
     <div className="border-b border-gray-200 pb-5 my-4">
-      <h3 className="text-base font-semibold leading-6 text-gray-900 ">TEXT AREA</h3>
+      <h3 className="text-2xl font-bold leading-6 text-gray-900  ">Text Area</h3>
     </div>
     <br />
     <div className="mt-4 mb-4">

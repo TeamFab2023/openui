@@ -9,7 +9,7 @@ const IconCard = () => {
     <br />
     <br />
     <div >
-        <h3 className="text-2xl font-semibold leading-6 text-gray-900 ">Statistic Cards W/Icons</h3>
+        <h3 className="text-2xl font-bold leading-6 text-gray-900 ">Statistic Cards W/Icons</h3>
     </div>
 
     <div className="border-b border-[1px] border-gray-300 mt-[20px]"></div>
