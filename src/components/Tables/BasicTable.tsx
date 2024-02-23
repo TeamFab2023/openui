@@ -115,6 +115,11 @@ const BasicTable = () => {
           </tbody>
         </table>
       </div>
+      <br/>
+      <br/>
+      <br/>
+
+
       </Layout>
 
   )

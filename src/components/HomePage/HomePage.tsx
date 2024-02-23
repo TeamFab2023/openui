@@ -33,7 +33,7 @@ const HomePage = () => {
 
           <h1 className=' sm:ml-[150px] p-2 text-center no-underline hover:underline decoration-red-300 decoration-2 text-5xl font-bold text-blue-700 
         hover:cursor-pointer'>HOMEPAGE</h1>
-          <div className='text-start sm:ml-64 p-3'>
+          <div className='text-start sm:ml-64 p-3 '>
             <h2 className='mt-10 font-bold text-3xl'>OPENING:</h2>
             <p className='mt-2 text-lg italic font-normal'>
               Welcome to <b>Materialize UI</b> – your ultimate destination for high-quality components that power innovation. At <b>Materialize UI</b>,
@@ -43,7 +43,6 @@ const HomePage = () => {
           <IconCard />
           <br />
           <BasicTable />
-          <br />
           <br />
           <PicCards />
           <br />
