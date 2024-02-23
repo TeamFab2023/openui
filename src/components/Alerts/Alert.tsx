@@ -48,6 +48,8 @@ const Alert = () => {
             <p className="ps-5">A simple primary alert—check it out!</p>
           </div>
         </div>
+        <br/>
+        <br/>
 
       </>
     </Layout>

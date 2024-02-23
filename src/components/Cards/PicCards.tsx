@@ -132,6 +132,9 @@ const PicCards = () => {
               </div>
             </div>
           </div>
+          <br/>
+          <br/>
+
         </section>
       </section>
     </Layout>

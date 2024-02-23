@@ -68,6 +68,10 @@ export default function SpanningTable() {
           </table>
         </div>
       </div>
+      <br/>
+      <br/>
+      <br/>
+
     </Layout>
   )
 }
