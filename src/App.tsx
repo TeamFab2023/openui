@@ -15,6 +15,8 @@ import StickyHeaderTable from './components/Tables/StickyHeaderTable'
 import SpanningTable from './components/Tables/spanningTable'
 import HomePage from './components/HomePage/HomePage';
 import Footer from './components/Footer/Footer';
+import AboutUs from './components/AboutUs/AboutUs';
+import Sidebar from './components/Sidebar/Sidebar';
 
 
 function App() {
@@ -23,6 +25,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
+        <Route path="/about" element={<AboutUs />} />
         <Route path="/alerts" element={<Alert />} />
         <Route path="button" element={<Button />} />
 

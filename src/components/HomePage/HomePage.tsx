@@ -1,16 +1,12 @@
-import React from 'react';
-import Sidebar from '../Sidebar/Sidebar';
-import Cards from '../Cards/Cards';
+
+
 import PicCards from '../Cards/PicCards';
 import IconCard from '../Cards/IconCard';
-import Alert from '../Alerts/Alert';
-import Button from '../Button/Button';
-import Textarea from '../Textarea/Textarea';
-import InputField from '../InputFields/InputField';
-import DenseTable from '../Tables/DenseTable';
-import BasicTable from '../Tables/BasicTable';
-import SpanningTable from '../Tables/spanningTable'
 import StickyHeaderTable from '../Tables/StickyHeaderTable'
+import Navbar from '../Navbar/Navbar';
+import SpanningTable from '../Tables/spanningTable';
+import Footer from '../Footer/Footer';
+import Sidebar from '../Sidebar/Sidebar';
 
 const HomePage = () => {
   return (
@@ -30,7 +26,7 @@ const HomePage = () => {
         {/* HomePage */}
         <div>
           {/* Main content of the Homepage */}
-
+          <Navbar /> <br /> <br/> <br /> <br/>
           <h1 className=' sm:ml-[150px] p-2 text-center no-underline hover:underline decoration-red-300 decoration-2 text-5xl font-bold text-blue-700 
         hover:cursor-pointer'>HOMEPAGE</h1>
           <div className='text-start sm:ml-64 p-3 '>
@@ -42,7 +38,7 @@ const HomePage = () => {
           <br />
           <IconCard />
           <br />
-          <BasicTable />
+         <SpanningTable/>
           <br />
           <PicCards />
           <br />
@@ -52,6 +48,7 @@ const HomePage = () => {
       </div>
       <div>
       </div>
+    
     </>
   );
 };
