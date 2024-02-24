@@ -11,7 +11,7 @@ const  StickyHeaderTable = () => {
     <h3 className='text-2xl font-bold leading-6 text-gray-900 mt-2 '>Sticky Header Table</h3> <br />
    <div className="overflow-hidden ">
       <div className="grid grid-col-1 ">
-        <div className=" overflow-y-scroll  max-h-[420px] md:h-screen z-50  ">
+        <div className=" overflow-y-scroll  max-h-[420px] md:h-screen   ">
           <table className="border-separate border-spacing-0 w-full  border-gray-300   ">
             <thead className="bg-white sticky top-0 ">
               <tr className="">
