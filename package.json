@@ -2,6 +2,13 @@
   "name": "openui",
   "version": "0.1",
   "private": true,
+  "author": {
+    "name": "Team Fab",
+    "email": "teamfabofficial@gmail.com",
+    "url": "https://openui.vercel.app/"
+  },
+  "main": "dist/index.js",
+  "source": "src/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
